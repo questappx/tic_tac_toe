@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="AppId">ca-app-pub-7236509513325540~6743285638</string>
+    <string name="BannerId">ca-app-pub-7236509513325540/8104468764</string>
+    <string name="RewardedId">ca-app-pub-7236509513325540/7690030639</string>
+    <string name="InterstitialId">ca-app-pub-7236509513325540/7081122555</string>
+    <string name="appOpenAd">ca-app-pub-7236509513325540/9519848248</string>
+    <string name="fileName">TTT QuestAppx</string>
+    <string name="rate_title">Rate us</string>
+    <string name="rate_message">Enjoy playing tic tac toe? Rate us to let us know</string>
+    <string name="rate_positive">Rate Now</string>
+    <string name="rate_remind_later">Remind Later</string>
+    <string name="rate_never">Never</string>
+    <string name="shared_preference_filename">TTT Quest File</string>
+    <!--    <string name="package_name">com.questappx.tictactoe.glow.puzzle.games</string>-->
+
+    <string-array name="gamePlayeModes">
+        <item>Original</item>
+        <item>Blockage</item>
+        <item>Barrier</item>
+        <item>Fade Away</item>
+        <item>Pickage</item>
+    </string-array>
+
+    <string name="basic_rules_text">Both the players play their turns until one of them make winning position or there is draw. Winning position can be horizontal, vertical, diagonal or anti-diagonal. Due to various Grids, player need atleast following X/O to win.</string>
+    <string name="grids_info">3x Grid : \t 3 X/0 \n6x Grid : \t 4 X/0 \n9x Grid : \t 5 X/0 \n11x Grid : \t 6 X/O</string>
+    <!--    <string name="locked_boxes_grid_info">1)In 3x Grid 3 Boxes will be locked that will be unlocked each after 2 Clicks\n2) In 6x Grid 5    Boxes will be locked that will be unlocked each after 6 Clicks\n3) In 9x Grid 10 Boxes will be locked that will be unlocked each after 7 Clicks\n4) In 11x Grid 15 Boxes will be locked that will be unlocked each after 9 Clicks</string>-->
+    <string name="barrier_box_gird_info">1)In 3x Grid, box will be locked after each 2 Clicks\n2) In 6x Grid, box will be locked after each 4 Clicks\n3) In 9x Grid, box will be locked after each 5 Clicks\n4) In 11x Grid, box will be locked after each 6 Click</string>
+
+
+    <!--    <string name="BannerId">ca-app-pub-7236509513325540/7376763964</string>-->
+    <!--    <string name="RewardedId">ca-app-pub-7236509513325540/6271851268</string>-->
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable-v24/email_shape.xml" value="0.158" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable-v24/ic_arrow_back.xml" value="0.158" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable-v24/purple_bg.xml" value="0.12" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/bg_spinner.xml" value="0.158" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/box_item.xml" value="0.12" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/difficulty_seekbar.xml" value="0.158" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/gamespace_six.xml" value="0.12" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/gradient.xml" value="0.12" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.158" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/ic_baseline_panorama_fish_eye_24.xml" value="0.158" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/round_back_blue_border.xml" value="0.12" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/round_back_dark_blue.xml" value="0.12" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/round_back_dark_blue_eleven_nine.xml" value="0.12" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/round_back_purple.xml" value="0.12" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/round_black_blue_border.xml" value="0.12" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/seekbar_prg_drawable.xml" value="0.158" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/seekthumb_one.xml" value="0.158" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/drawable/spinner_bg_item.xml" value="0.158" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/activity_levels.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/activity_mode.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/activity_mode2.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/activity_three_x.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/cell_tictactoe.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/difficulty_level_dialog.xml" value="0.488245931283906" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/eleven_x_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/exit_game_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/exit_rateus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/five_x_level_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/four_x_level_iten.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/gamespace_11x11.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/gamespace_3x3.xml" value="0.5" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/gamespace_4x4.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/gamespace_5x5.xml" value="0.33" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/gamespace_6x6.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/gamespace_9x9.xml" value="0.22" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/gamespace_six.xml" value="0.203125" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/guides_layouts.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/level_gamespace_4x4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/level_gamespace_5x5.xml" value="0.22" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/level_gamespace_6x6.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/level_gamespace_7x7.xml" value="0.33" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/level_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/nine_x_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/online_image_item.xml" value="0.15648148148148147" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/rateus_dialog.xml" value="0.25" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/send_email.xml" value="0.22" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/setting_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/seven_x_level_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/six_x_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/six_x_level_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/three_x_item.xml" value="0.18" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/layout/win_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace/Android Studio/TicTacToe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.158" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

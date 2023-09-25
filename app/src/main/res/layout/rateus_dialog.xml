@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_250sdp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="-10dp"
+        android:background="@mipmap/rateus_dialog_bg" />
+
+    <ImageView
+        android:id="@+id/cancelBtn_rateus"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/emojiIv"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_below="@id/cancelBtn_rateus"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/low_difficulty_emoji" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonslayout"
+        android:layout_below="@id/emojiIv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Enjoying Playing Game? Rate Now"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp" />
+
+    <LinearLayout
+        android:id="@+id/buttonslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:id="@+id/ok_rateus"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@mipmap/dificulty_ok"
+            android:backgroundTint="@color/purple"
+            android:gravity="center"
+            android:text="Rate"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/remindmeLater_Rateus"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@mipmap/dificulty_ok"
+            android:backgroundTint="@color/purple"
+            android:gravity="center"
+            android:text="Remind Later"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/rateus_Skip"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@mipmap/dificulty_ok"
+            android:backgroundTint="@color/purple"
+            android:gravity="center"
+            android:text="Skip"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

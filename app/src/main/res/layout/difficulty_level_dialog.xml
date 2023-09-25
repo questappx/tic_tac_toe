@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_250sdp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="-10dp"
+        android:background="@mipmap/diffculty_box_bg" />
+
+    <ImageView
+        android:id="@+id/cancelBtn_difficulty"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/emojiIv"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_below="@id/cancelBtn_difficulty"
+        android:layout_marginTop="-10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/low_difficulty_emoji" />
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_above="@id/seekbar_diffculty_level"
+        android:layout_below="@id/emojiIv"
+        android:layout_centerHorizontal="true"
+        >
+
+
+        <ImageView
+            android:id="@+id/diffcultyLevelIv"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/easy_difficulty" />
+    </RelativeLayout>
+
+
+    <SeekBar
+        android:id="@+id/seekbar_diffculty_level"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_above="@id/ok_diffcultyBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_38sdp"
+        android:layout_marginEnd="@dimen/_38sdp"
+        android:background="@drawable/difficulty_seekbar"
+        android:foregroundGravity="center"
+        android:max="2"
+        android:paddingStart="@dimen/_14sdp"
+        android:paddingEnd="@dimen/_14sdp"
+        android:progressDrawable="@drawable/seekbar_prg_drawable"
+        android:thumb="@drawable/diffculty_seekone" />
+
+    <ImageButton
+        android:id="@+id/ok_diffcultyBtn"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@mipmap/dificulty_ok"
+
+        />
+
+
+
+
+</RelativeLayout>

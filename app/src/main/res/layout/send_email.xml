@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/suggestetEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/g1"
+        android:padding="10dp"
+        android:text="You can report your problem here. You can suggest us any change that would be reliable and make this game more easy to play for new users. You can request for new game feature or sugggest us something etc. So mail us about your views, we will surely reply within 2 business days." />
+
+    <RelativeLayout
+        android:id="@+id/g1"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_alignParentTop="true"
+        android:background="#071B39">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Send Email"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/hideEmailLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/ic_arrow_back" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_below="@id/suggestetEXT"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:background="#f2f2f2"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            android:hint="Enter your email "
+            android:id="@+id/toSendEditText"
+            android:padding="5dp"
+            android:inputType="textEmailAddress"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f2f2f2"
+            android:popupBackground="#f2f2f2"
+            android:id="@+id/spinner"
+            android:clickable="false"
+            android:spinnerMode="dropdown"
+            android:padding="5dp"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:background="#f2f2f2"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            android:id="@+id/subjectEditText"
+            android:hint="Subject: "
+            android:padding="5dp"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:background="#f2f2f2"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:id="@+id/messageEditText"
+            android:hint="Message: "
+            android:gravity="top"
+            android:padding="5dp"
+            android:inputType="textMultiLine"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/sendEmailButton"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/round_back_dark_blue"
+            android:backgroundTint="@color/dark_blue"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>

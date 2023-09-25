@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:top="@dimen/_20sdp"
+        android:bottom="@dimen/_20sdp"
+        android:left="@dimen/_20sdp"
+        android:right="@dimen/_20sdp"
+        android:drawable="@drawable/diffculty_seekone"/>
+<!--    <item android:drawable="@drawable/red_heart_clip"/>-->
+</layer-list>

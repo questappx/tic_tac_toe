@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mainpage"
+    tools:context=".FirstActivity">
+
+    <TextView
+        android:id="@+id/suggestUs"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/email_shape"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:text="Report a Problem"
+        android:textColor="@color/dark_blue"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_above="@id/moreappBtn"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_15sdp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:background="@drawable/ttt_card"
+            android:id="@+id/tttcardIv"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:background="@drawable/water_sort_card"
+            android:id="@+id/waterSortcard"
+            />
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_above="@id/moreappBtn"-->
+<!--        android:visibility="gone"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:layout_marginBottom="@dimen/_5sdp"-->
+
+<!--        >-->
+<!--        <ImageView-->
+<!--            android:id="@+id/playtBtn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_60sdp"-->
+<!--            android:src="@drawable/play_btn"-->
+<!--            />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/levelsBtn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_65sdp"-->
+<!--            android:src="@drawable/level_btn"-->
+<!--            />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/guidesBtn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_marginTop="-8dp"-->
+<!--            android:layout_height="@dimen/_65sdp"-->
+<!--            android:src="@drawable/guides_btn"-->
+<!--            />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/settingBtn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_60sdp"-->
+<!--            android:layout_marginTop="-8dp"-->
+<!--            android:src="@drawable/setting_btn"-->
+<!--            />-->
+
+
+
+<!--    </LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/rateusBtn"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:onClick="func_rateus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/rateus_fab" />
+
+    <ImageView
+        android:id="@+id/moreappBtn"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="func_moreapps"
+        android:src="@drawable/moreapp_fab" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/suggestionLayout" >
+        <include layout="@layout/send_email"/>
+    </RelativeLayout>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:visibility="gone"-->
+<!--        android:id="@+id/guidesLayout" >-->
+<!--        <include layout="@layout/guides_layouts"/>-->
+<!--    </RelativeLayout>-->
+
+</RelativeLayout>

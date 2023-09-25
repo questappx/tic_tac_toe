@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/rateUsDialog"
+        android:layout_width="440.0sp"
+        android:layout_height="440.0sp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rateus_dialog" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/exitRateDialog"
+        android:padding="5.0sp"
+        android:layout_below="@id/rateUsDialog"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="-100sp"
+        />
+
+</RelativeLayout>

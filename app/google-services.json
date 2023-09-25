@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "782784824749",
+    "project_id": "ttt-quest",
+    "storage_bucket": "ttt-quest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782784824749:android:a94b79e62895671d054d24",
+        "android_client_info": {
+          "package_name": "com.questappx.tictactoe.glow.puzzle.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782784824749-2cd4rskh1ub0eo99j5m8h2snlrmtdbeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.questappx.tictactoe.glow.puzzle.games",
+            "certificate_hash": "9c7f8fe068ffca52ca3f2cb6964b02d24d913ace"
+          }
+        },
+        {
+          "client_id": "782784824749-1r55k54984sve699ut4n2u5kkbngiddi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRayqtmSL-_sCylHJL-vuLrFu451bHmuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782784824749-1r55k54984sve699ut4n2u5kkbngiddi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

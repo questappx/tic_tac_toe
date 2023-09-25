@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/setting_full_dialog_img"
+    android:layout_height="@dimen/_250sdp">
+
+
+    <ImageView
+        android:id="@+id/cancelBtn_settingdialog"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:weightSum="3"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/volumeBtn_settingdialog"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:src="@drawable/volume_btn"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/restartBtn_settingdialog"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_weight="1"
+            android:src="@drawable/restart_bt"
+            />
+
+        <ImageView
+            android:id="@+id/homeBtn_settingDialog"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:src="@drawable/home_btn"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ModeActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        >
+
+        <ImageView
+            android:id="@+id/acitivtybackIv"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/activity_back_btn" />
+
+        <ImageView
+            android:id="@+id/settingIv"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/setting_img" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/modeTextIv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginBottom="-5dp"
+        android:src="@drawable/three_text" />
+
+    <LinearLayout
+        android:id="@+id/switchModeLayout"
+        android:layout_below="@id/modeTextIv"
+        android:layout_width="match_parent"
+        android:layout_marginTop="-15dp"
+        android:weightSum="3"
+        android:layout_height="@dimen/_270sdp"
+        >
+
+        <ImageView
+            android:id="@+id/leftModeBtnIv"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:src="@drawable/leftmode_btn"
+            android:layout_marginRight="-10dp"
+            android:visibility="invisible"
+            android:layout_gravity="center_vertical"
+            />
+        
+        <ImageView
+            android:id="@+id/modeImgIv"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:src="@drawable/threex_img"
+            />
+
+        <ImageView
+            android:id="@+id/rightModeBtnIv"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginLeft="-10dp"
+            android:src="@drawable/rightmode_btn"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerPlayModes"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/bg_spinner"
+        style="@style/Spinner"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:id="@+id/mulitplayerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/multiplayer" />
+
+    <ImageView
+        android:id="@+id/singlePlayerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/singleplayer_btn" />
+
+        <ImageView
+            android:id="@+id/levelsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_62sdp"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/level_btn" />
+
+    </LinearLayout>
+
+</LinearLayout>
