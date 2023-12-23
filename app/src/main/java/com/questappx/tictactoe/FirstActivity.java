@@ -40,6 +40,7 @@ import com.google.android.ump.ConsentRequestParameters;
 import com.google.android.ump.FormError;
 import com.google.android.ump.UserMessagingPlatform;
 import com.questappx.tictactoe.Extras.AppOpenManager;
+import com.questappx.tictactoe.Extras.Gdpr;
 import com.questappx.tictactoe.Extras.InterstitialAdImplement;
 import com.questappx.tictactoe.Extras.RateUsExit;
 import com.questappx.tictactoe.WaterSort.WaterSortLevelActivity;
@@ -79,6 +80,10 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mode);
 
+        Gdpr gdpr = new Gdpr(this);
+        gdpr.setGdpr();
+
+
         init();
 
 
@@ -94,21 +99,10 @@ public class FirstActivity extends AppCompatActivity {
 
        private void loadAdmobAds()
        {
-              MobileAds.initialize(this, new OnInitializationCompleteListener() {
-                     @Override
-                     public void onInitializationComplete(InitializationStatus initializationStatus) {
-                            loadRewardedAdmobAd();
-                         loadInterstitialAd();
-//                            interstitialAdImplement.InterstitialAdLoadCall();
-                     }
-              });
+           loadInterstitialAd();
+           loadRewardedAdmobAd();
 
            new AppOpenManager(this);
-
-
-//              adView = findViewById(R.id.adView);
-//              AdRequest adRequest = new AdRequest.Builder().build();
-//              adView.loadAd(adRequest);
        }
 
        private void loadInterstitialAd()
@@ -131,8 +125,6 @@ public class FirstActivity extends AppCompatActivity {
                                    FirstActivity.interstitialAd.show(FirstActivity.this);
                                }
                            }
-
-
 
                            interstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
                                @Override

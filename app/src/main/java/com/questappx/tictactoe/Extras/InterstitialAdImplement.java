@@ -28,6 +28,8 @@ import com.questappx.tictactoe.WaterSort.onSortEndListener;
     private static final String TAG = "InterstitialAdImplement";
     Context context;
     InterstitialAd interstitialAd;
+
+        long lastInterstitialShowTime = 0;
     public int reward = 0;
         boolean activityOpenAd = false;
     // reward 1 -- adding tube
@@ -200,11 +202,16 @@ import com.questappx.tictactoe.WaterSort.onSortEndListener;
 
         public void showInterstitial(Activity activity)
         {
-            if(FirstActivity.interstitialAd != null)
+            long currentTime = System.currentTimeMillis();
+            long elapsedTimeSinceLastShow = currentTime - lastInterstitialShowTime;
+            long oneMinuteInMillis = 60 * 1000;
+
+            if(FirstActivity.interstitialAd != null && elapsedTimeSinceLastShow >= oneMinuteInMillis)
             {
-                FirstActivity.interstitialAd.show(activity);
+                FirstActivity.interstitialAd.show((activity));
+                lastInterstitialShowTime = currentTime;
             }
-            else if(FirstActivity.fbInterstitial != null)
+            else if(FirstActivity.fbInterstitial != null  && elapsedTimeSinceLastShow >= oneMinuteInMillis)
             {
                 if(FirstActivity.fbInterstitial.isAdLoaded())
                 {

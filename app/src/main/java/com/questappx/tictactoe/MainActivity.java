@@ -76,9 +76,6 @@ public class MainActivity extends AppCompatActivity implements onGameListener {
         clickListener();
 
 
-
-//        AppOpenManager appOpenManager = new AppOpenManager(this);
-//
         Random random = new Random();
         int rand = random.nextInt(2);
         if(rand == 1)
